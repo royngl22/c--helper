@@ -27,3 +27,9 @@ protected getButtons(): Serenity.ToolButton[] {
 
             return buttons;
         }
+
+
+//title dialog
+protected updateTitle() {
+            this.dialogTitle = "Your title ";
+        }
